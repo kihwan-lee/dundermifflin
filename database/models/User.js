@@ -2,12 +2,18 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const userSchema = new Schema({
-  name: {type: String, required: true,},
-  email: {type: String, required: true,},
-  password: {type: String, required: true,},
-  department: {type: String, required: true,},
-  salesMade: {type: Number, required: true,},
-  branch: {type: String, required: true,}
+  name: {type: String, required: true},
+  email: {type: String, required: true},
+  password: {type: String, required: true},
+  department: {type: String, required: true},
+  sales: [{
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Sale',
+  }],
+  branch: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Branch'
+  }
 }, {timestamps: true});
 
 const User = mongoose.model('User', userSchema);
