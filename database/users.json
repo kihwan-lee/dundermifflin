@@ -1,0 +1,44 @@
+{
+  "users" : [
+    {
+      "name": "Michael Scott",
+      "email": "ms@dm.com",
+      "password": "ms",
+      "department": "Sales",
+      "sales": [],
+      "branch": ""
+    },
+    {
+      "name": "Dwight Schrute",
+      "email": "ds@dm.com",
+      "password": "ds",
+      "department": "Sales",
+      "sales": [],
+      "branch": ""
+    },
+    {
+      "name": "Jim Halpert",
+      "email": "jh@dm.com",
+      "password": "jh",
+      "department": "Sales",
+      "sales": [],
+      "branch": ""
+    },
+    {
+      "name": "Kevin Malone",
+      "email": "km@dm.com",
+      "password": "km",
+      "department": "Accounting",
+      "sales": [],
+      "branch": ""
+    },
+    {
+      "name": "Kelly Kapur",
+      "email": "kk@dm.com",
+      "password": "kk",
+      "department": "Customer Service",
+      "sales": [],
+      "branch": ""
+    }
+  ]
+}
