@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const connectionString = 
-  process.env.MONGODB_URI || "mongodb://localhost:27017/dundermifflin";
+  process.env.MONGODB_URI || "mongodb://localhost:27017/company";
 
 const configOptions = {
   useNewUrlParser: true,
