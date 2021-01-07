@@ -15,8 +15,9 @@ mongoose
   .then(() => console.log("MongoDB successfully connected..."))
   .catch((err) => console.log(`MongoDB connection error: ${err}`));
 
-module.exports = {
-  Branch: require('./Branch'),
-  User: require('./User'),
-  Sale: require('./Sale')
-};
+  module.exports = {
+    User: require('./User'),
+    Sale: require('./Sale'),
+    Branch: require('./Branch')
+  };
+  
